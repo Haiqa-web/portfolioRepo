@@ -9,7 +9,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "499ffee5-bee3-4e49-b327-e58abe807cca");
+    formData.append("access_key", import.meta.env.VITE_WEB3FORMS_KEY);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
