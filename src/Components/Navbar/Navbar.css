@@ -32,7 +32,7 @@
 .nav-menu li{
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 40px;
   cursor: pointer;
 }
 .nav-menu li img{
@@ -46,9 +46,10 @@
 .nav-mob-close{
   display: none;
 }
-  .nav-mob-open{
-    display: none;
-  }
+.nav-mob-open{
+  display: none;
+}
+
 @media(max-width:768px){
   .navbar{
     margin: 20px 50px;
