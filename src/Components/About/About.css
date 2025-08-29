@@ -33,6 +33,7 @@
 .about-section{
     display: flex;
     gap: 80px;
+    flex-wrap: wrap;
 }
 .about-right{
     display: flex;

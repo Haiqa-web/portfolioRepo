@@ -21,7 +21,7 @@
 }
 .hero h1{
     text-align: center;
-    width: 70%;
+    max-width: 70%;
     font-size: 60px;
     font-weight: 600;
 }
